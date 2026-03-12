@@ -3,4 +3,4 @@ CREATE USER 'webappuser'@'%' ON IDENTIFIED BY 'P@ssw0rd';
 GRANT INSERT, UPDATE, DELETE, SELECT ON ShopDB.* TO 'webappuser'@'%';
 
 CREATE USER 'deploymentuser'@'%' ON IDENTIFIED BY 'P@ssw0rd';
-GRANT ALL ON ShopDBю* TO 'deploymentuser'@'%';
+GRANT ALL ON ShopDB.* TO 'deploymentuser'@'%';
